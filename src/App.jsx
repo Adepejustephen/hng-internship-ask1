@@ -1,4 +1,4 @@
-import { LinksComp, Profile } from './components';
+import { Footer, LinksComp, Profile } from './components';
 
 
 
@@ -6,7 +6,8 @@ function App() {
   return (
     <div className='App'>
       <Profile />
-      <LinksComp/>
+      <LinksComp />
+      <Footer/>
     </div>
   );
 }

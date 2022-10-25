@@ -1,0 +1,23 @@
+.footer {
+  padding: 32px 0px 0px;
+  border-top: 1px solid #eaecf0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 7rem;
+}
+
+.footer__text {
+  color: #667085;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+}
