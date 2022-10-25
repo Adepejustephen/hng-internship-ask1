@@ -20,7 +20,7 @@ export const links = [
     id: "‘book__python",
   },
   {
-    title: "Zuri Team",
+    title: "Zuri Pitch",
     link: "https://background.zuri.team",
     id: "pitch",
   },
