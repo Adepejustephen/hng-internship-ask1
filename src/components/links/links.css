@@ -41,6 +41,12 @@ border-radius: 8px;
 }
 
 
+@media screen and (min-width: 900px) {
+    .links {
+   
+    padding: 0 2rem;
+}
+}
 @media screen and (min-width: 1300px) {
     .links {
    
