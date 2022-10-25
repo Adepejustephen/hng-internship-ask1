@@ -1,0 +1,29 @@
+.links {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+
+
+.links__btn {
+    text-align: center;
+    background-color: #EAECF0;
+  padding: 24px 32px;
+  width: 100%;
+    outline: none;
+    border: 1px solid #EAECF0;
+border-radius: 8px;
+ font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #101828;
+}
+
+.links__btn a {
+    text-decoration: none;
+    
+   
+    
+}

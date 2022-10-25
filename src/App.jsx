@@ -1,12 +1,13 @@
-import { Profile } from './components';
+import { LinksComp, Profile } from './components';
 
 
 
 function App() {
   return (
-    <>
-      <Profile/>
-    </>
+    <div className='App'>
+      <Profile />
+      <LinksComp/>
+    </div>
   );
 }
 
