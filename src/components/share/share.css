@@ -47,11 +47,13 @@
 
 .share__icon:hover .share__tooltip {
   display: flex;
+  transition: 0.3s ease;
 }
 
 .share__icon:hover {
   background-color: #f9fafb;
   transition: 0.3s ease;
+
 }
 
 .share__icon--active {

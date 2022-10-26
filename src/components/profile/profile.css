@@ -10,6 +10,10 @@
 .profile__img--container {
     height: 7.5rem;
     width: 7.5rem;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
 }
 
 .profile__img{
@@ -17,6 +21,8 @@
     height:100%;
     object-fit: cover;
     border-radius: 100%;
+ 
+    
 
 }
 
@@ -34,6 +40,26 @@
 
  .profile__details--slack{
     display: none;
+ }
+
+ .profile__img--overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 100%;
+    background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75));
+    display: none;
+    padding-bottom: .725rem;
+ }
+
+ .profile__img--container:hover .profile__img--overlay {
+    display: flex;
+    transition: .3s ease;
  }
 
 

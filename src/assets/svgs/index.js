@@ -4,5 +4,6 @@ import Slack from './slack.svg'
 import Zuri from './zuri-logo.svg'
 import { ReactComponent as DesktopShareBtn } from "./share-06.svg";
 import { ReactComponent as MobileShareBtn}  from "./dots-horizontal.svg";
+import { ReactComponent as Camera}  from "./camera-01.svg";
 
-export {Github, I4G, Slack, Zuri, DesktopShareBtn, MobileShareBtn}
+export {Github, I4G, Slack, Zuri, DesktopShareBtn, MobileShareBtn, Camera}

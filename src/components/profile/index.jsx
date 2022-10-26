@@ -1,5 +1,5 @@
 import React from "react";
-import { ProfileImg } from "../../assets";
+import { Camera, ProfileImg } from "../../assets";
 import "./profile.css";
 
 export const Profile = () => {
@@ -12,6 +12,9 @@ export const Profile = () => {
           id="profile_image"
           className="profile__img"
         />
+        <div className="profile__img--overlay">
+          <Camera/>
+        </div>
       </div>
       <div className="profile__details">
         <p className="profile__details--twitter" id="twitter">
