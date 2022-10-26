@@ -28,8 +28,9 @@ border-radius: 8px;
     cursor: pointer;
 }
 
-.links__btn a {
-    text-decoration: none;
+.links__btn:hover {
+   background: #D0D5DD;
+   transition: .3s ease;
       
 }
 
