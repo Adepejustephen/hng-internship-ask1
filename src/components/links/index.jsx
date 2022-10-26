@@ -5,7 +5,7 @@ import './links.css'
 
 export const LinksComp = () => {
   return (
-    <div className="links">
+    <section className="links">
       <div className="links__list">
         {links.map((item, id) => {
           return (
@@ -19,6 +19,6 @@ export const LinksComp = () => {
               <img src={Slack} alt="slack-icon" />
               <img src={Github} alt="github-icon" />
           </div>
-    </div>
+    </section>
   );
 }

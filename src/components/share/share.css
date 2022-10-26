@@ -1,0 +1,99 @@
+.share {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.tooltip__container {
+    position: absolute;
+    left: -6.5rem;
+    /* top: 0; */
+}
+.share__tooltip {
+  display: none;
+  align-items: center;
+  background-color: #101828;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.share__tooltip::after {
+    content: '';
+  position: absolute;
+  right: -8px;
+  background-color: #101828;
+  height: 100%;
+  width: 20px;
+ clip-path: polygon(100% 50%, 0 100%, 0 0);
+  top: 0;
+}
+
+.share__icon {
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.share__icon:hover .share__tooltip {
+  display: flex;
+}
+
+.share__icon:hover {
+  background-color: #f9fafb;
+  transition: 0.3s ease;
+}
+
+.share__icon--active {
+  border: 1px dashed #d0d5dd;
+  box-shadow: 0px 0px 0px 4px #f2f4f7;
+  transition: 0.3s ease;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.share__icon:hover .icon path {
+  stroke: #667085;
+  transition: 0.3s ease;
+}
+
+.share__icon--active .icon path {
+  stroke: #667085;
+  transition: 0.3s ease;
+}
+
+
+.icon:last-of-type {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .share {
+  position: absolute;
+  right: 20rem;
+  top: 0;
+}
+  .icon:first-child {
+    display: none;
+  }
+  .icon:last-of-type {
+    display: flex;
+  }
+
+}
