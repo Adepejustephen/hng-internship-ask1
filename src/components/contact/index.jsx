@@ -1,4 +1,4 @@
-import './contact.css'
+import "./contact.css";
 
 export const ContactUi = () => {
   return (
@@ -9,7 +9,50 @@ export const ContactUi = () => {
           Hi there, contact me to ask me about anything you have in mind.
         </p>
       </div>
-      <form action="" className="contact__form"></form>
+      <form action="" className="contact__form">
+        <div className="contact__form--group">
+          <div className="contact__form--item">
+            <label htmlFor="email" className="contact__form--label">
+              First name
+            </label>
+            <input
+              type="text"
+              className="contact__form--input"
+              placeholder="Enter your first name"
+            />
+          </div>
+          <div className="contact__form--item">
+            <label htmlFor="email" className="contact__form--label">
+              Last name
+            </label>
+            <input
+              type="text"
+              className="contact__form--input"
+              placeholder="Enter your last name"
+            />
+          </div>
+        </div>
+        <div className="contact__form--item">
+          <label htmlFor="email" className="contact__form--label">
+            Email
+          </label>
+          <input
+            type="email"
+            className="contact__form--input"
+            placeholder="yourname@email.com"
+          />
+        </div>
+        <div className="contact__form--item">
+          <label htmlFor="email" className="contact__form--label">
+            Message
+          </label>
+          <textarea
+           
+            className="contact__form--input"
+            placeholder="Send me a message and I'll reply you as soon as possible..."
+          />
+        </div>
+      </form>
     </div>
   );
-}
+};
