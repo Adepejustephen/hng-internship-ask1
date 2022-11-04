@@ -84,6 +84,14 @@ input::placeholder {
   font-size: 1rem;
   font-weight: 400;
 }
+.contact__form--group:last-of-type {
+    flex-direction: row;
+}
+
+.contact__form--group .contact__form--label {
+    font-weight: 400;
+    color: #475467;
+} 
 
 @media screen and (min-width: 600px) {
   .contact__header--subtitle {

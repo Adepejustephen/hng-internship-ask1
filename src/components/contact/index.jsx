@@ -47,10 +47,15 @@ export const ContactUi = () => {
             Message
           </label>
           <textarea
-           
             className="contact__form--input"
             placeholder="Send me a message and I'll reply you as soon as possible..."
           />
+        </div>
+        <div className="contact__form--group">
+          <input type="checkbox" className="contact__form--radio" />
+          <label htmlFor="email" className="contact__form--label">
+            You agree to providing your data to Ifeoluwa Adepeju who may contact you.
+          </label>
         </div>
       </form>
     </div>
