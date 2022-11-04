@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact__header--title {
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.contact__header--title {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.contact__header--title {
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__form--group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__header--subtitle {
+    font-size: 1.125rem;
+  }
+
+  .contact__form--group {
+    flex-direction: row;
+  }
+}
