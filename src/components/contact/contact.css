@@ -86,6 +86,7 @@ input::placeholder {
 }
 .contact__form--group:last-of-type {
     flex-direction: row;
+    gap:1rem;
 }
 
 .contact__form--group .contact__form--label {
