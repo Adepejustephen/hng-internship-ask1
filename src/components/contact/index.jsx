@@ -54,9 +54,11 @@ export const ContactUi = () => {
         <div className="contact__form--group">
           <input type="checkbox" className="contact__form--radio" />
           <label htmlFor="email" className="contact__form--label">
-            You agree to providing your data to Ifeoluwa Adepeju who may contact you.
+            You agree to providing your data to Ifeoluwa Adepeju who may contact
+            you.
           </label>
         </div>
+        <botton className="btn">Send message</botton>
       </form>
     </div>
   );
