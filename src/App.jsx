@@ -1,13 +1,15 @@
-import { Footer, LinksComp, Profile, Share } from './components';
+import { Route, Routes } from 'react-router-dom';
+import { Footer} from './components';
+import { Home } from './pages/home';
 
 
 
 function App() {
   return (
     <div className='App'>
-      <Share/>
-      <Profile />
-      <LinksComp />
+      <Routes>
+      <Route exact path="/" element={<Home/>}/>
+      </Routes>
       <Footer/>
     </div>
   );

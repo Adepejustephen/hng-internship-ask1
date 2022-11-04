@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { DesktopShareBtn, MobileShareBtn } from "../../assets";
+import { DesktopShareBtn, MobileShareBtn } from "../../../assets";
 import "./share.css";
 
 export const Share = () => {

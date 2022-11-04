@@ -1,5 +1,5 @@
 import React from "react";
-import { Camera, ProfileImg } from "../../assets";
+import { Camera, ProfileImg } from "../../../assets";
 import "./profile.css";
 
 export const Profile = () => {

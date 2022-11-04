@@ -30,8 +30,8 @@ border-radius: 8px;
 
 .links__btn:hover {
    background: #D0D5DD;
-   transition: .3s ease;
-      
+   transition: .3s ease; 
+       
 }
 
 .links__socials {
